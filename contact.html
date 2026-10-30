@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Daksh Raghav</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header><h1>Contact Me</h1><nav aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="project.html">Projects</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav></header>
+    <main id="main-content">
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Send a Message</h2>
+            <form action="#contact-heading" method="get">
+                <div class="form-row"><label for="name">Name:</label><input type="text" id="name" name="name" placeholder="Enter your name" minlength="2" maxlength="60" autocomplete="name" required></div>
+                <div class="form-row"><label for="email">Email:</label><input type="email" id="email" name="email" placeholder="Enter your email" maxlength="100" autocomplete="email" required></div>
+                <div class="form-row"><label for="message">Message:</label><textarea id="message" name="message" placeholder="Enter your message" minlength="5" maxlength="1000" required></textarea></div>
+                <button type="submit">Send</button>
+            </form>
+            <hr>
+            <a class="button-link" href="index.html">Back to Home</a>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Daksh Raghav. Personal Portfolio.</p></footer>
+    <a class="back-to-top" href="#top" aria-label="Back to top">Back to Top</a>
+</body>
+</html>
