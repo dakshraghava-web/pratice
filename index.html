@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daksh Raghav | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header>
+        <h1>Daksh Raghav</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section id="welcome" aria-labelledby="welcome-heading">
+            <h2 id="welcome-heading">Welcome to My Portfolio</h2>
+            <p>Hello! I am a web development student. This is my personal portfolio website.</p>
+        </section>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <img class="profile-image" src="images/profile.jpeg" alt="Profile picture of Daksh Raghav" width="190" height="190">
+            <p>I am passionate about learning web development and building creative projects.</p>
+            <a class="button-link" href="about.html">Read More About Me</a>
+        </section>
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">My Projects</h2>
+            <ul class="project-list">
+                <li><strong>Portfolio Website:</strong> A personal one-page website to showcase your bio, skills, and contact details.</li>
+                <li><strong>Medium Clone:</strong> A simple blog layout that looks like Medium, built only with HTML and CSS.</li>
+                <li><strong>Birthday Card:</strong> A creative greeting card webpage designed with HTML structure and CSS styling.</li>
+                <li><strong>User Form:</strong> A form webpage with fields like name, email, and message for practicing form handling.</li>
+            </ul>
+            <p><a class="button-link" href="project.html">View Projects</a></p>
+        </section>
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Technical Skills</h2>
+            <table>
+                <thead><tr><th scope="col">Skill</th><th scope="col">Level</th></tr></thead>
+                <tbody>
+                    <tr><td>HTML</td><td>Beginner</td></tr>
+                    <tr><td>CSS</td><td>Beginner</td></tr>
+                    <tr><td>JavaScript</td><td>Learning</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Me</h2>
+            <form action="#contact" method="get">
+                <div class="form-row"><label for="name">Name:</label><input type="text" id="name" name="name" placeholder="Enter your name" minlength="2" maxlength="60" autocomplete="name" required></div>
+                <div class="form-row"><label for="email">Email:</label><input type="email" id="email" name="email" placeholder="Enter your email" maxlength="100" autocomplete="email" required></div>
+                <div class="form-row"><label for="message">Message:</label><textarea id="message" name="message" placeholder="Enter your message" minlength="5" maxlength="1000" required></textarea></div>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Daksh Raghav. Personal Portfolio.</p></footer>
+    <a class="back-to-top" href="#top" aria-label="Back to top">Back to Top</a>
+</body>
+</html>
